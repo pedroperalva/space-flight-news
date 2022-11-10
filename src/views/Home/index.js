@@ -21,6 +21,8 @@ function Home() {
         const response = await http.get("/articles", {
           params: {
             _limit: limit,
+            title_contains: location.state ? location.state.title : "",
+            _sort: location.state ? location.state.sort : "",
           },
         });
         setArticles(response.data);
@@ -29,11 +31,8 @@ function Home() {
         navigate(`/error`);
       }
     }
-    if (location.state) {
-      setArticles(location.state);
-    } else {
-      searchArticles();
-    }
+
+    searchArticles();
   }, [location, limit, navigate]);
 
   const handleModal = (article) => {
