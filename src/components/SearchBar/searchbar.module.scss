@@ -1,0 +1,8 @@
+.searchbarContainer {
+  display: flex;
+  width: 25%;
+}
+input:focus {
+  box-shadow: none !important;
+  border-color: #302e53 !important;
+}

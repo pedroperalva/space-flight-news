@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+  border-bottom: 2px solid #302e53;
+  width: 95%;
+}
+.formsContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  h3 {
+    color: #302e53;
+  }
+}
+.headerImg {
+  border-radius: 50%;
+  width: 100px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+select:focus {
+  box-shadow: none !important;
+  border-color: #302e53 !important;
+}
+option:focus {
+  background-color: #fff !important;
+}

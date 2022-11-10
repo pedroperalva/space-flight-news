@@ -1,0 +1,16 @@
+.image {
+  width: 320px;
+  height: 250px;
+}
+.infosContainer {
+  display: flex;
+  justify-content: space-between;
+  p {
+    font-size: 12px;
+  }
+}
+.newsSite {
+  border: 1px solid gray;
+  background-color: rgb(211, 211, 211);
+  padding: 0 3px 0 3px;
+}
