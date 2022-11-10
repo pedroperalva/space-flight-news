@@ -18,14 +18,12 @@ function Header() {
   function handleSelectValue(event) {
     if (event.target.value === "2") {
       setSort("publishedAt");
-      console.log(sort);
     } else {
       setSort("");
     }
   }
 
   async function searchArticle() {
-    console.log(sort);
     try {
       const response = await http.get("/articles", {
         params: {
@@ -41,7 +39,6 @@ function Header() {
 
   useEffect(() => {
     if (articles.length >= 1) {
-      console.log(articles);
       navigate(`/`, {
         state: articles,
       });

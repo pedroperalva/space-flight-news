@@ -27,4 +27,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Launches the test runner in the interactive watch mode.\
 
+Be sure to first run this project with `npm start`
+
+- Component Testing:
+
 Click in Component Testing -> choose your browser -> click in Specs -> choose the file that you want to test.
+
+- E2E Testing:
+
+Click in E2E Testing -> choose your browser -> click in Specs -> choose the file that you want to test.

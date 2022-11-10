@@ -23,7 +23,6 @@ function Home() {
             _limit: limit,
           },
         });
-        console.log(response.data);
         setArticles(response.data);
         setLoading(false);
       } catch (error) {
@@ -71,7 +70,11 @@ function Home() {
       ) : isLoading ? (
         <></>
       ) : (
-        <Button onClick={() => setLimit(limit + 10)} className="mt-5">
+        <Button
+          data-cy="loadBtn"
+          onClick={() => setLimit(limit + 10)}
+          className="mt-5"
+        >
           Carregar Mais
         </Button>
       )}
