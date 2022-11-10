@@ -1,6 +1,6 @@
 # Space Flight News
 
-This is a challenge by Coodesh.
+This is a challenge by [Coodesh](https://coodesh.com/).
 
 In this you can see the most complete spaceflight related news.
 
