@@ -2,7 +2,9 @@
 
 This is a challenge by Coodesh.
 
-Thats a project that you can see the most complete spaceflight related news.
+In this you can see the most complete spaceflight related news.
+
+You can visit the website in this link: [https://space-flight-news-afmj2loat-pedroperalva.vercel.app/](https://space-flight-news-afmj2loat-pedroperalva.vercel.app/)
 
 ## Technologies
 
