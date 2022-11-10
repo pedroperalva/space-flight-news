@@ -4,7 +4,7 @@
   gap: 50px;
   padding: 20px;
   border-bottom: 2px solid #302e53;
-  width: 95%;
+  margin: 0 40px 0 40px;
 }
 .formsContainer {
   display: flex;
@@ -33,4 +33,13 @@ select:focus {
 }
 option:focus {
   background-color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+  .formsContainer {
+    flex-direction: column;
+  }
+  .header {
+    margin: 0 10px 0 10px;
+  }
 }
